@@ -10,24 +10,24 @@ export default defineConfig({
     includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
     manifest:
     {
-      name: "IG342PWA",
+      name: "F1 INFO",
       short_name: 'F1 INFO',
       description: 'แอบพลิเคชันแบบกำหนดเอง',
       theme_color: '#ffffff',
       icons:
         [
           {
-            src: 'pwa-192x192.png',
+            src: 'logo f1.png',
             sizes: '256x256',
             type: 'image/png',
           },
           {
-            src: 'pwa-512x512.png',
+            src: 'logo f1.png',
             sizes: '512x512',
             type: 'image/png',
           },
           {
-            src: 'pwa-512x512.png',
+            src: 'logo f1.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any maskable'
